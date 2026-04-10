@@ -1,0 +1,13 @@
+Instrument (PGS),Outcome,First-stage F,RF coefficient,IV coefficient,IV SE,IV 95% CI,IV p,N
+Education,IHS(wealth),987.8,0.5596,0.7983,0.0668,"[0.6673, 0.9292]",<0.001,12060
+Education,SS claiming age,463.0,0.1838,0.2870,0.0363,"[0.2158, 0.3583]",<0.001,6700
+Education,Stock participation,987.8,0.0576,0.0822,0.0060,"[0.0704, 0.0939]",<0.001,12060
+Education,IRA participation,987.8,0.0715,0.1020,0.0066,"[0.0891, 0.1149]",<0.001,12060
+Cognition,IHS(wealth),964.1,0.4559,0.4245,0.0450,"[0.3363, 0.5127]",<0.001,11689
+Cognition,SS claiming age,595.3,0.1709,0.1674,0.0246,"[0.1191, 0.2157]",<0.001,6607
+Cognition,Stock participation,964.1,0.0492,0.0459,0.0042,"[0.0376, 0.0541]",<0.001,11689
+Cognition,IRA participation,964.1,0.0574,0.0534,0.0047,"[0.0443, 0.0625]",<0.001,11689
+Depression,IHS(wealth),130.7,-0.2667,-1.7271,0.3016,"[-2.3184, -1.1359]",<0.001,12090
+Depression,SS claiming age,46.4,-0.0780,-0.6946,0.2243,"[-1.1342, -0.2549]",0.002,6712
+Depression,Stock participation,130.7,-0.0251,-0.1624,0.0292,"[-0.2197, -0.1051]",<0.001,12090
+Depression,IRA participation,130.7,-0.0231,-0.1496,0.0303,"[-0.2090, -0.0903]",<0.001,12090

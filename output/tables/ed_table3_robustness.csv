@@ -1,0 +1,126 @@
+trait,outcome,model,method,beta,se,t,p,ci_lower,ci_upper,ci_scale,n,r2,or,z
+Education,IHS(wealth),Base (educ),OLS,0.2744,0.0468,5.8589,0.0000,0.1826,0.3662,beta,12060,0.0605,,
+Education,SS claiming age,Base (educ),OLS,0.0978,0.0237,4.1313,0.0000,0.0514,0.1441,beta,6700,0.0598,,
+Education,Retirement age,Base (educ),OLS,0.0872,0.0741,1.1762,0.2395,-0.0581,0.2325,beta,9625,0.0647,,
+Education,Stock participation,Base (educ),Logistic,0.1593,0.0233,,0.0000,1.1202,1.2275,OR,12060,,1.1726,6.8228
+Education,IRA participation,Base (educ),Logistic,0.1683,0.0213,,0.0000,1.1350,1.2336,OR,12060,,1.1833,7.9120
+Education,IHS(wealth),+ Health,OLS,0.2315,0.0463,4.9965,0.0000,0.1407,0.3223,beta,12060,0.0852,,
+Education,SS claiming age,+ Health,OLS,0.0928,0.0236,3.9347,0.0001,0.0466,0.1390,beta,6700,0.0637,,
+Education,Retirement age,+ Health,OLS,0.0648,0.0740,0.8752,0.3815,-0.0803,0.2098,beta,9625,0.0689,,
+Education,Stock participation,+ Health,Logistic,0.1531,0.0234,,0.0000,1.1132,1.2201,OR,12060,,1.1654,6.5395
+Education,IRA participation,+ Health,Logistic,0.1590,0.0214,,0.0000,1.1242,1.2225,OR,12060,,1.1723,7.4358
+Education,IHS(wealth),+ Marital,OLS,0.2765,0.0456,6.0659,0.0000,0.1872,0.3658,beta,12060,0.0996,,
+Education,SS claiming age,+ Marital,OLS,0.0975,0.0237,4.1198,0.0000,0.0511,0.1439,beta,6700,0.0606,,
+Education,Retirement age,+ Marital,OLS,0.0862,0.0741,1.1633,0.2447,-0.0591,0.2316,beta,9625,0.0652,,
+Education,Stock participation,+ Marital,Logistic,0.1619,0.0234,,0.0000,1.1230,1.2309,OR,12060,,1.1757,6.9120
+Education,IRA participation,+ Marital,Logistic,0.1745,0.0216,,0.0000,1.1413,1.2420,OR,12060,,1.1906,8.0885
+Education,IHS(wealth),+ Income,OLS,0.2594,0.0467,5.5537,0.0000,0.1679,0.3510,beta,12060,0.0752,,
+Education,SS claiming age,+ Income,OLS,0.0967,0.0236,4.0980,0.0000,0.0504,0.1429,beta,6700,0.0654,,
+Education,Retirement age,+ Income,OLS,0.0845,0.0742,1.1391,0.2547,-0.0609,0.2299,beta,9625,0.0651,,
+Education,Stock participation,+ Income,Logistic,0.1492,0.0237,,0.0000,1.1083,1.2160,OR,12060,,1.1609,6.3041
+Education,IRA participation,+ Income,Logistic,0.1585,0.0214,,0.0000,1.1237,1.2220,OR,12060,,1.1718,7.4104
+Education,IHS(wealth),All controls,OLS,0.2258,0.0450,5.0204,0.0000,0.1377,0.3140,beta,12060,0.1301,,
+Education,SS claiming age,All controls,OLS,0.0915,0.0235,3.8952,0.0001,0.0455,0.1376,beta,6700,0.0703,,
+Education,Retirement age,All controls,OLS,0.0612,0.0740,0.8266,0.4085,-0.0839,0.2063,beta,9625,0.0698,,
+Education,Stock participation,All controls,Logistic,0.1478,0.0238,,0.0000,1.1064,1.2145,OR,12060,,1.1592,6.2137
+Education,IRA participation,All controls,Logistic,0.1591,0.0218,,0.0000,1.1234,1.2235,OR,12060,,1.1724,7.3059
+Cognition,IHS(wealth),Base (educ),OLS,0.2329,0.0489,4.7641,0.0000,0.1371,0.3287,beta,12060,0.0595,,
+Cognition,SS claiming age,Base (educ),OLS,0.0937,0.0248,3.7863,0.0002,0.0452,0.1422,beta,6700,0.0593,,
+Cognition,Retirement age,Base (educ),OLS,0.1163,0.0768,1.5138,0.1301,-0.0343,0.2669,beta,9625,0.0648,,
+Cognition,Stock participation,Base (educ),Logistic,0.1382,0.0241,,0.0000,1.0952,1.2039,OR,12060,,1.1483,5.7279
+Cognition,IRA participation,Base (educ),Logistic,0.1329,0.0222,,0.0000,1.0935,1.1928,OR,12060,,1.1421,5.9923
+Cognition,IHS(wealth),+ Health,OLS,0.1855,0.0482,3.8464,0.0001,0.0910,0.2800,beta,12060,0.0844,,
+Cognition,SS claiming age,+ Health,OLS,0.0884,0.0247,3.5770,0.0003,0.0400,0.1369,beta,6700,0.0633,,
+Cognition,Retirement age,+ Health,OLS,0.0936,0.0768,1.2190,0.2228,-0.0569,0.2442,beta,9625,0.0690,,
+Cognition,Stock participation,+ Health,Logistic,0.1309,0.0242,,0.0000,1.0870,1.1953,OR,12060,,1.1399,5.4053
+Cognition,IRA participation,+ Health,Logistic,0.1214,0.0223,,0.0000,1.0807,1.1796,OR,12060,,1.1291,5.4366
+Cognition,IHS(wealth),+ Marital,OLS,0.2231,0.0480,4.6484,0.0000,0.1290,0.3171,beta,12060,0.0985,,
+Cognition,SS claiming age,+ Marital,OLS,0.0941,0.0247,3.8016,0.0001,0.0456,0.1425,beta,6700,0.0602,,
+Cognition,Retirement age,+ Marital,OLS,0.1171,0.0768,1.5241,0.1275,-0.0335,0.2676,beta,9625,0.0652,,
+Cognition,Stock participation,+ Marital,Logistic,0.1384,0.0243,,0.0000,1.0951,1.2045,OR,12060,,1.1485,5.6976
+Cognition,IRA participation,+ Marital,Logistic,0.1335,0.0225,,0.0000,1.0934,1.1944,OR,12060,,1.1428,5.9192
+Cognition,IHS(wealth),+ Income,OLS,0.2238,0.0484,4.6251,0.0000,0.1289,0.3186,beta,12060,0.0744,,
+Cognition,SS claiming age,+ Income,OLS,0.0931,0.0247,3.7733,0.0002,0.0447,0.1414,beta,6700,0.0650,,
+Cognition,Retirement age,+ Income,OLS,0.1154,0.0768,1.5020,0.1331,-0.0352,0.2660,beta,9625,0.0652,,
+Cognition,Stock participation,+ Income,Logistic,0.1323,0.0243,,0.0000,1.0884,1.1970,OR,12060,,1.1414,5.4521
+Cognition,IRA participation,+ Income,Logistic,0.1252,0.0224,,0.0000,1.0846,1.1843,OR,12060,,1.1334,5.5786
+Cognition,IHS(wealth),All controls,OLS,0.1735,0.0470,3.6894,0.0002,0.0813,0.2657,beta,12060,0.1293,,
+Cognition,SS claiming age,All controls,OLS,0.0884,0.0246,3.5904,0.0003,0.0402,0.1367,beta,6700,0.0700,,
+Cognition,Retirement age,All controls,OLS,0.0938,0.0768,1.2218,0.2218,-0.0567,0.2443,beta,9625,0.0699,,
+Cognition,Stock participation,All controls,Logistic,0.1277,0.0244,,0.0000,1.0830,1.1919,OR,12060,,1.1362,5.2259
+Cognition,IRA participation,All controls,Logistic,0.1182,0.0229,,0.0000,1.0761,1.1770,OR,12060,,1.1254,5.1673
+Depression,IHS(wealth),Base (educ),OLS,-0.1946,0.0450,-4.3237,0.0000,-0.2829,-0.1064,beta,12060,0.0592,,
+Depression,SS claiming age,Base (educ),OLS,-0.0548,0.0230,-2.3789,0.0174,-0.0999,-0.0096,beta,6700,0.0581,,
+Depression,Retirement age,Base (educ),OLS,0.0304,0.0731,0.4155,0.6778,-0.1129,0.1737,beta,9625,0.0646,,
+Depression,Stock participation,Base (educ),Logistic,-0.0990,0.0226,,0.0000,0.8666,0.9467,OR,12060,,0.9057,-4.3872
+Depression,IRA participation,Base (educ),Logistic,-0.0659,0.0207,,0.0014,0.8990,0.9749,OR,12060,,0.9362,-3.1919
+Depression,IHS(wealth),+ Health,OLS,-0.1473,0.0444,-3.3161,0.0009,-0.2343,-0.0602,beta,12060,0.0841,,
+Depression,SS claiming age,+ Health,OLS,-0.0479,0.0230,-2.0801,0.0375,-0.0929,-0.0028,beta,6700,0.0621,,
+Depression,Retirement age,+ Health,OLS,0.0556,0.0729,0.7624,0.4458,-0.0874,0.1986,beta,9625,0.0689,,
+Depression,Stock participation,+ Health,Logistic,-0.0903,0.0227,,0.0001,0.8739,0.9552,OR,12060,,0.9136,-3.9836
+Depression,IRA participation,+ Health,Logistic,-0.0523,0.0208,,0.0121,0.9111,0.9886,OR,12060,,0.9491,-2.5080
+Depression,IHS(wealth),+ Marital,OLS,-0.1788,0.0440,-4.0603,0.0000,-0.2651,-0.0925,beta,12060,0.0981,,
+Depression,SS claiming age,+ Marital,OLS,-0.0555,0.0231,-2.4067,0.0161,-0.1007,-0.0103,beta,6700,0.0590,,
+Depression,Retirement age,+ Marital,OLS,0.0288,0.0731,0.3937,0.6938,-0.1146,0.1722,beta,9625,0.0650,,
+Depression,Stock participation,+ Marital,Logistic,-0.0972,0.0227,,0.0000,0.8680,0.9486,OR,12060,,0.9074,-4.2880
+Depression,IRA participation,+ Marital,Logistic,-0.0622,0.0210,,0.0030,0.9019,0.9791,OR,12060,,0.9397,-2.9660
+Depression,IHS(wealth),+ Income,OLS,-0.1985,0.0451,-4.4046,0.0000,-0.2869,-0.1102,beta,12060,0.0743,,
+Depression,SS claiming age,+ Income,OLS,-0.0565,0.0231,-2.4436,0.0145,-0.1018,-0.0112,beta,6700,0.0638,,
+Depression,Retirement age,+ Income,OLS,0.0286,0.0732,0.3915,0.6954,-0.1148,0.1721,beta,9625,0.0650,,
+Depression,Stock participation,+ Income,Logistic,-0.0962,0.0229,,0.0000,0.8685,0.9499,OR,12060,,0.9083,-4.2070
+Depression,IRA participation,+ Income,Logistic,-0.0612,0.0209,,0.0034,0.9029,0.9800,OR,12060,,0.9407,-2.9279
+Depression,IHS(wealth),All controls,OLS,-0.1395,0.0434,-3.2151,0.0013,-0.2245,-0.0545,beta,12060,0.1290,,
+Depression,SS claiming age,All controls,OLS,-0.0508,0.0231,-2.1992,0.0279,-0.0960,-0.0055,beta,6700,0.0688,,
+Depression,Retirement age,All controls,OLS,0.0519,0.0730,0.7112,0.4769,-0.0912,0.1950,beta,9625,0.0698,,
+Depression,Stock participation,All controls,Logistic,-0.0888,0.0230,,0.0001,0.8747,0.9573,OR,12060,,0.9151,-3.8572
+Depression,IRA participation,All controls,Logistic,-0.0477,0.0213,,0.0249,0.9145,0.9940,OR,12060,,0.9534,-2.2432
+Neuroticism,IHS(wealth),Base (educ),OLS,-0.2252,0.0540,-4.1698,0.0000,-0.3311,-0.1194,beta,12060,0.0592,,
+Neuroticism,SS claiming age,Base (educ),OLS,-0.0822,0.0268,-3.0633,0.0022,-0.1348,-0.0296,beta,6700,0.0586,,
+Neuroticism,Retirement age,Base (educ),OLS,-0.0346,0.0850,-0.4073,0.6838,-0.2013,0.1320,beta,9625,0.0646,,
+Neuroticism,Stock participation,Base (educ),Logistic,-0.0628,0.0262,,0.0163,0.8922,0.9885,OR,12060,,0.9391,-2.4012
+Neuroticism,IRA participation,Base (educ),Logistic,-0.0489,0.0240,,0.0420,0.9085,0.9982,OR,12060,,0.9523,-2.0339
+Neuroticism,IHS(wealth),+ Health,OLS,-0.1711,0.0533,-3.2094,0.0013,-0.2755,-0.0666,beta,12060,0.0841,,
+Neuroticism,SS claiming age,+ Health,OLS,-0.0747,0.0268,-2.7923,0.0052,-0.1272,-0.0223,beta,6700,0.0626,,
+Neuroticism,Retirement age,+ Health,OLS,-0.0061,0.0849,-0.0718,0.9427,-0.1724,0.1602,beta,9625,0.0688,,
+Neuroticism,Stock participation,+ Health,Logistic,-0.0519,0.0263,,0.0485,0.9017,0.9996,OR,12060,,0.9494,-1.9733
+Neuroticism,IRA participation,+ Health,Logistic,-0.0328,0.0242,,0.1750,0.9229,1.0147,OR,12060,,0.9677,-1.3563
+Neuroticism,IHS(wealth),+ Marital,OLS,-0.2002,0.0525,-3.8119,0.0001,-0.3032,-0.0973,beta,12060,0.0980,,
+Neuroticism,SS claiming age,+ Marital,OLS,-0.0833,0.0269,-3.0997,0.0019,-0.1360,-0.0306,beta,6700,0.0595,,
+Neuroticism,Retirement age,+ Marital,OLS,-0.0371,0.0850,-0.4362,0.6627,-0.2037,0.1295,beta,9625,0.0650,,
+Neuroticism,Stock participation,+ Marital,Logistic,-0.0590,0.0263,,0.0249,0.8953,0.9926,OR,12060,,0.9427,-2.2425
+Neuroticism,IRA participation,+ Marital,Logistic,-0.0416,0.0244,,0.0878,0.9145,1.0062,OR,12060,,0.9593,-1.7072
+Neuroticism,IHS(wealth),+ Income,OLS,-0.2211,0.0539,-4.1000,0.0000,-0.3267,-0.1154,beta,12060,0.0741,,
+Neuroticism,SS claiming age,+ Income,OLS,-0.0811,0.0270,-3.0039,0.0027,-0.1340,-0.0282,beta,6700,0.0642,,
+Neuroticism,Retirement age,+ Income,OLS,-0.0346,0.0850,-0.4067,0.6842,-0.2013,0.1321,beta,9625,0.0650,,
+Neuroticism,Stock participation,+ Income,Logistic,-0.0551,0.0263,,0.0364,0.8988,0.9965,OR,12060,,0.9464,-2.0922
+Neuroticism,IRA participation,+ Income,Logistic,-0.0423,0.0242,,0.0797,0.9142,1.0050,OR,12060,,0.9585,-1.7525
+Neuroticism,IHS(wealth),All controls,OLS,-0.1494,0.0518,-2.8861,0.0039,-0.2509,-0.0480,beta,12060,0.1289,,
+Neuroticism,SS claiming age,All controls,OLS,-0.0753,0.0269,-2.7969,0.0052,-0.1280,-0.0225,beta,6700,0.0693,,
+Neuroticism,Retirement age,All controls,OLS,-0.0091,0.0849,-0.1076,0.9143,-0.1755,0.1572,beta,9625,0.0698,,
+Neuroticism,Stock participation,All controls,Logistic,-0.0448,0.0266,,0.0925,0.9076,1.0074,OR,12060,,0.9562,-1.6822
+Neuroticism,IRA participation,All controls,Logistic,-0.0242,0.0246,,0.3262,0.9301,1.0244,OR,12060,,0.9761,-0.9818
+Well-being,IHS(wealth),Base (educ),OLS,0.1615,0.0454,3.5545,0.0004,0.0725,0.2506,beta,12060,0.0588,,
+Well-being,SS claiming age,Base (educ),OLS,0.0351,0.0221,1.5847,0.1130,-0.0083,0.0784,beta,6700,0.0576,,
+Well-being,Retirement age,Base (educ),OLS,-0.0824,0.0720,-1.1449,0.2522,-0.2234,0.0586,beta,9625,0.0647,,
+Well-being,Stock participation,Base (educ),Logistic,0.0051,0.0227,,0.8211,0.9614,1.0509,OR,12060,,1.0052,0.2261
+Well-being,IRA participation,Base (educ),Logistic,0.0481,0.0206,,0.0193,1.0078,1.0924,OR,12060,,1.0493,2.3395
+Well-being,IHS(wealth),+ Health,OLS,0.1090,0.0448,2.4311,0.0151,0.0211,0.1968,beta,12060,0.0838,,
+Well-being,SS claiming age,+ Health,OLS,0.0287,0.0221,1.3011,0.1932,-0.0145,0.0720,beta,6700,0.0617,,
+Well-being,Retirement age,+ Health,OLS,-0.1084,0.0719,-1.5075,0.1317,-0.2493,0.0325,beta,9625,0.0690,,
+Well-being,Stock participation,+ Health,Logistic,-0.0058,0.0229,,0.8002,0.9507,1.0398,OR,12060,,0.9942,-0.2531
+Well-being,IRA participation,+ Health,Logistic,0.0322,0.0207,,0.1191,0.9917,1.0754,OR,12060,,1.0327,1.5584
+Well-being,IHS(wealth),+ Marital,OLS,0.1368,0.0443,3.0853,0.0020,0.0499,0.2237,beta,12060,0.0976,,
+Well-being,SS claiming age,+ Marital,OLS,0.0367,0.0221,1.6565,0.0976,-0.0067,0.0800,beta,6700,0.0585,,
+Well-being,Retirement age,+ Marital,OLS,-0.0785,0.0720,-1.0906,0.2754,-0.2196,0.0626,beta,9625,0.0651,,
+Well-being,Stock participation,+ Marital,Logistic,-0.0004,0.0228,,0.9867,0.9560,1.0452,OR,12060,,0.9996,-0.0167
+Well-being,IRA participation,+ Marital,Logistic,0.0399,0.0207,,0.0544,0.9993,1.0838,OR,12060,,1.0407,1.9239
+Well-being,IHS(wealth),+ Income,OLS,0.1547,0.0451,3.4318,0.0006,0.0664,0.2431,beta,12060,0.0737,,
+Well-being,SS claiming age,+ Income,OLS,0.0340,0.0221,1.5402,0.1235,-0.0093,0.0772,beta,6700,0.0632,,
+Well-being,Retirement age,+ Income,OLS,-0.0823,0.0719,-1.1436,0.2528,-0.2233,0.0587,beta,9625,0.0651,,
+Well-being,Stock participation,+ Income,Logistic,-0.0020,0.0229,,0.9292,0.9541,1.0438,OR,12060,,0.9980,-0.0889
+Well-being,IRA participation,+ Income,Logistic,0.0422,0.0206,,0.0406,1.0018,1.0861,OR,12060,,1.0431,2.0472
+Well-being,IHS(wealth),All controls,OLS,0.0854,0.0435,1.9619,0.0498,0.0001,0.1708,beta,12060,0.1286,,
+Well-being,SS claiming age,All controls,OLS,0.0299,0.0220,1.3600,0.1738,-0.0132,0.0730,beta,6700,0.0684,,
+Well-being,Retirement age,All controls,OLS,-0.1036,0.0720,-1.4398,0.1499,-0.2446,0.0374,beta,9625,0.0699,,
+Well-being,Stock participation,All controls,Logistic,-0.0139,0.0231,,0.5468,0.9426,1.0318,OR,12060,,0.9862,-0.6025
+Well-being,IRA participation,All controls,Logistic,0.0229,0.0209,,0.2723,0.9821,1.0660,OR,12060,,1.0232,1.0977

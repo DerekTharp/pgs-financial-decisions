@@ -1,0 +1,21 @@
+trait,outcome,sample,beta,se,t,p,ci_lower,ci_upper,ci_scale,n,r2
+Education,IHS(wealth),Full,0.2744,0.0468,5.8589,0.0000,0.1826,0.3662,beta,12060,0.0605
+Education,IHS(wealth),Excl. cognitive impairment,0.2494,0.0476,5.2366,0.0000,0.1561,0.3428,beta,11070,0.0555
+Education,SS claiming age,Full,0.0978,0.0237,4.1313,0.0000,0.0514,0.1441,beta,6700,0.0598
+Education,SS claiming age,Excl. cognitive impairment,0.0925,0.0244,3.7903,0.0002,0.0446,0.1403,beta,6359,0.0603
+Cognition,IHS(wealth),Full,0.2329,0.0489,4.7641,0.0000,0.1371,0.3287,beta,12060,0.0595
+Cognition,IHS(wealth),Excl. cognitive impairment,0.1923,0.0497,3.8668,0.0001,0.0948,0.2898,beta,11070,0.0545
+Cognition,SS claiming age,Full,0.0937,0.0248,3.7863,0.0002,0.0452,0.1422,beta,6700,0.0593
+Cognition,SS claiming age,Excl. cognitive impairment,0.0940,0.0254,3.6996,0.0002,0.0442,0.1438,beta,6359,0.0601
+Depression,IHS(wealth),Full,-0.1946,0.0450,-4.3237,0.0000,-0.2829,-0.1064,beta,12060,0.0592
+Depression,IHS(wealth),Excl. cognitive impairment,-0.1818,0.0464,-3.9225,0.0001,-0.2727,-0.0910,beta,11070,0.0545
+Depression,SS claiming age,Full,-0.0548,0.0230,-2.3789,0.0174,-0.0999,-0.0096,beta,6700,0.0581
+Depression,SS claiming age,Excl. cognitive impairment,-0.0545,0.0236,-2.3113,0.0208,-0.1007,-0.0083,beta,6359,0.0588
+Neuroticism,IHS(wealth),Full,-0.2252,0.0540,-4.1698,0.0000,-0.3311,-0.1194,beta,12060,0.0592
+Neuroticism,IHS(wealth),Excl. cognitive impairment,-0.2002,0.0557,-3.5906,0.0003,-0.3094,-0.0909,beta,11070,0.0544
+Neuroticism,SS claiming age,Full,-0.0822,0.0268,-3.0633,0.0022,-0.1348,-0.0296,beta,6700,0.0586
+Neuroticism,SS claiming age,Excl. cognitive impairment,-0.0866,0.0274,-3.1659,0.0015,-0.1402,-0.0330,beta,6359,0.0595
+Well-being,IHS(wealth),Full,0.1615,0.0454,3.5545,0.0004,0.0725,0.2506,beta,12060,0.0588
+Well-being,IHS(wealth),Excl. cognitive impairment,0.1629,0.0467,3.4923,0.0005,0.0715,0.2544,beta,11070,0.0543
+Well-being,SS claiming age,Full,0.0351,0.0221,1.5847,0.1130,-0.0083,0.0784,beta,6700,0.0576
+Well-being,SS claiming age,Excl. cognitive impairment,0.0334,0.0226,1.4773,0.1396,-0.0109,0.0776,beta,6359,0.0583

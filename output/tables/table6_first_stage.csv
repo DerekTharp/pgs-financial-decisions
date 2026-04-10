@@ -1,0 +1,4 @@
+trait,endogenous,coef,se,t,f_stat,p,partial_r2,r2_full,r2_restricted,n,strong_instrument
+Education,raedyrs,0.7010,0.0220,31.8869,1016.7754,0.0000,0.0755,0.1237,0.0521,12060,True
+Cognition,cogtot_avg,1.0739,0.0344,31.2171,974.5076,0.0000,0.0752,0.2237,0.1605,11689,True
+Depression,cesd_avg,0.1544,0.0136,11.3804,129.5131,0.0000,0.0108,0.0287,0.0181,12090,True

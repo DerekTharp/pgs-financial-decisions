@@ -1,0 +1,41 @@
+ancestry,trait,outcome,type,beta,se,t,p,ci_lower,ci_upper,ci_scale,n,r2,or,z
+AFR,Education,IHS(wealth),OLS,0.1969,0.1393,1.4139,0.1574,-0.0760,0.4699,beta,3087,0.0564,,
+AFR,Education,SS claiming age,OLS,-0.0690,0.0562,-1.2269,0.2199,-0.1791,0.0412,beta,1227,0.0254,,
+AFR,Education,Stock participation,Logistic,0.1897,0.0958,,0.0477,1.0019,1.4588,OR,3087,,1.2089,1.9796
+AFR,Education,IRA participation,Logistic,-0.0162,0.0657,,0.8049,0.8649,1.1192,OR,3087,,0.9839,-0.2470
+AFR,Cognition,IHS(wealth),OLS,0.0952,0.1410,0.6751,0.4996,-0.1812,0.3716,beta,3087,0.0560,,
+AFR,Cognition,SS claiming age,OLS,-0.0199,0.0512,-0.3886,0.6976,-0.1202,0.0804,beta,1227,0.0242,,
+AFR,Cognition,Stock participation,Logistic,0.0686,0.0961,,0.4756,0.8871,1.2929,OR,3087,,1.0710,0.7134
+AFR,Cognition,IRA participation,Logistic,0.1658,0.0594,,0.0053,1.0506,1.3262,OR,3087,,1.1804,2.7903
+AFR,Depression,IHS(wealth),OLS,-0.2045,0.1323,-1.5460,0.1221,-0.4637,0.0547,beta,3087,0.0566,,
+AFR,Depression,SS claiming age,OLS,0.0079,0.0492,0.1613,0.8719,-0.0885,0.1044,beta,1227,0.0241,,
+AFR,Depression,Stock participation,Logistic,-0.1250,0.0847,,0.1400,0.7474,1.0419,OR,3087,,0.8825,-1.4756
+AFR,Depression,IRA participation,Logistic,-0.0565,0.0562,,0.3145,0.8465,1.0551,OR,3087,,0.9450,-1.0058
+AFR,Neuroticism,IHS(wealth),OLS,-0.1652,0.1315,-1.2563,0.2090,-0.4229,0.0925,beta,3087,0.0563,,
+AFR,Neuroticism,SS claiming age,OLS,-0.0642,0.0474,-1.3555,0.1753,-0.1571,0.0286,beta,1227,0.0255,,
+AFR,Neuroticism,Stock participation,Logistic,-0.1231,0.0904,,0.1732,0.7407,1.0555,OR,3087,,0.8842,-1.3621
+AFR,Neuroticism,IRA participation,Logistic,-0.0529,0.0552,,0.3374,0.8512,1.0568,OR,3087,,0.9484,-0.9593
+AFR,Well-being,IHS(wealth),OLS,-0.0195,0.1354,-0.1444,0.8852,-0.2848,0.2458,beta,3087,0.0558,,
+AFR,Well-being,SS claiming age,OLS,0.0570,0.0480,1.1873,0.2351,-0.0371,0.1510,beta,1227,0.0251,,
+AFR,Well-being,Stock participation,Logistic,-0.0832,0.0861,,0.3337,0.7773,1.0892,OR,3087,,0.9202,-0.9667
+AFR,Well-being,IRA participation,Logistic,-0.0612,0.0558,,0.2720,0.8432,1.0492,OR,3087,,0.9406,-1.0984
+HIS,Education,IHS(wealth),OLS,0.2479,0.1726,1.4357,0.1511,-0.0905,0.5862,beta,2365,0.0957,,
+HIS,Education,SS claiming age,OLS,0.0893,0.0792,1.1278,0.2594,-0.0659,0.2444,beta,963,0.0219,,
+HIS,Education,Stock participation,Logistic,0.0640,0.1315,,0.6268,0.8238,1.3796,OR,2365,,1.0660,0.4862
+HIS,Education,IRA participation,Logistic,0.1177,0.0963,,0.2215,0.9315,1.3586,OR,2365,,1.1250,1.2227
+HIS,Cognition,IHS(wealth),OLS,0.0538,0.1520,0.3538,0.7235,-0.2441,0.3516,beta,2365,0.0949,,
+HIS,Cognition,SS claiming age,OLS,0.0372,0.0663,0.5610,0.5748,-0.0927,0.1671,beta,963,0.0207,,
+HIS,Cognition,Stock participation,Logistic,0.1143,0.1008,,0.2569,0.9201,1.3660,OR,2365,,1.1211,1.1338
+HIS,Cognition,IRA participation,Logistic,0.0218,0.0836,,0.7944,0.8676,1.2039,OR,2365,,1.0220,0.2605
+HIS,Depression,IHS(wealth),OLS,-0.1660,0.1370,-1.2112,0.2258,-0.4345,0.1026,beta,2365,0.0954,,
+HIS,Depression,SS claiming age,OLS,0.0756,0.0579,1.3053,0.1918,-0.0379,0.1890,beta,963,0.0219,,
+HIS,Depression,Stock participation,Logistic,-0.0099,0.0951,,0.9169,0.8217,1.1930,OR,2365,,0.9901,-0.1044
+HIS,Depression,IRA participation,Logistic,-0.0061,0.0729,,0.9331,0.8615,1.1466,OR,2365,,0.9939,-0.0839
+HIS,Neuroticism,IHS(wealth),OLS,-0.0403,0.1405,-0.2865,0.7745,-0.3157,0.2352,beta,2365,0.0949,,
+HIS,Neuroticism,SS claiming age,OLS,0.0274,0.0574,0.4772,0.6332,-0.0851,0.1400,beta,963,0.0205,,
+HIS,Neuroticism,Stock participation,Logistic,0.1092,0.1071,,0.3082,0.9041,1.3760,OR,2365,,1.1154,1.0190
+HIS,Neuroticism,IRA participation,Logistic,0.0692,0.0748,,0.3553,0.9254,1.2409,OR,2365,,1.0716,0.9244
+HIS,Well-being,IHS(wealth),OLS,0.1364,0.1498,0.9108,0.3624,-0.1572,0.4301,beta,2365,0.0951,,
+HIS,Well-being,SS claiming age,OLS,-0.0410,0.0689,-0.5942,0.5524,-0.1760,0.0941,beta,963,0.0207,,
+HIS,Well-being,Stock participation,Logistic,-0.0100,0.1213,,0.9342,0.7806,1.2556,OR,2365,,0.9900,-0.0826
+HIS,Well-being,IRA participation,Logistic,-0.0081,0.0879,,0.9262,0.8349,1.1784,OR,2365,,0.9919,-0.0926

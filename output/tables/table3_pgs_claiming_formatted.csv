@@ -1,0 +1,11 @@
+PGS trait,Specification,Coefficient (years),SE,95% CI,p-value,,N
+Education,Without education,0.183,0.023,"[0.138, 0.228]",<0.001,***,6712
+Education,With education,0.098,0.024,"[0.051, 0.144]",<0.001,***,6700
+Cognition,Without education,0.169,0.025,"[0.121, 0.218]",<0.001,***,6712
+Cognition,With education,0.094,0.025,"[0.045, 0.142]",<0.001,***,6700
+Depression,Without education,-0.078,0.023,"[-0.124, -0.032]",<0.001,***,6712
+Depression,With education,-0.055,0.023,"[-0.100, -0.010]",0.017,*,6700
+Neuroticism,Without education,-0.113,0.027,"[-0.166, -0.060]",<0.001,***,6712
+Neuroticism,With education,-0.082,0.027,"[-0.135, -0.030]",0.002,**,6700
+Well-being,Without education,0.043,0.023,"[-0.002, 0.087]",0.060,,6712
+Well-being,With education,0.035,0.022,"[-0.008, 0.078]",0.113,,6700

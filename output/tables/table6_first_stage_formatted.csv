@@ -1,0 +1,4 @@
+PGS trait,Endogenous trait,Coefficient,SE,F-statistic,Partial R-squared,p-value,N,Instrument strength
+Education,raedyrs,0.7010,0.0220,1016.8,0.0755,<0.001,12060,Strong
+Cognition,cogtot_avg,1.0739,0.0344,974.5,0.0752,<0.001,11689,Strong
+Depression,cesd_avg,0.1544,0.0136,129.5,0.0108,<0.001,12090,Strong

@@ -1,0 +1,25 @@
+trait,outcome,method,coef,se,ci_lower,ci_upper,p,n
+Education,IHS(wealth),OLS,0.4364,0.0186,0.3999,0.4728,0.0000,12060
+Education,IHS(wealth),IV,0.7983,0.0668,0.6673,0.9292,0.0000,12060
+Education,SS claiming age,OLS,0.1442,0.0098,0.1250,0.1635,0.0000,6700
+Education,SS claiming age,IV,0.2870,0.0363,0.2158,0.3583,0.0000,6700
+Education,Stock participation,OLS,0.0425,0.0016,0.0394,0.0456,0.0000,12060
+Education,Stock participation,IV,0.0822,0.0060,0.0704,0.0939,0.0000,12060
+Education,IRA participation,OLS,0.0516,0.0017,0.0483,0.0549,0.0000,12060
+Education,IRA participation,IV,0.1020,0.0066,0.0891,0.1149,0.0000,12060
+Cognition,IHS(wealth),OLS,0.3001,0.0135,0.2736,0.3265,0.0000,11689
+Cognition,IHS(wealth),IV,0.4245,0.0450,0.3363,0.5127,0.0000,11689
+Cognition,SS claiming age,OLS,0.0515,0.0066,0.0386,0.0644,0.0000,6607
+Cognition,SS claiming age,IV,0.1674,0.0246,0.1191,0.2157,0.0000,6607
+Cognition,Stock participation,OLS,0.0235,0.0011,0.0215,0.0256,0.0000,11689
+Cognition,Stock participation,IV,0.0459,0.0042,0.0376,0.0541,0.0000,11689
+Cognition,IRA participation,OLS,0.0314,0.0012,0.0291,0.0337,0.0000,11689
+Cognition,IRA participation,IV,0.0534,0.0047,0.0443,0.0625,0.0000,11689
+Depression,IHS(wealth),OLS,-0.8953,0.0416,-0.9768,-0.8139,0.0000,12090
+Depression,IHS(wealth),IV,-1.7271,0.3016,-2.3184,-1.1359,0.0000,12090
+Depression,SS claiming age,OLS,-0.0996,0.0166,-0.1321,-0.0671,0.0000,6712
+Depression,SS claiming age,IV,-0.6946,0.2243,-1.1342,-0.2549,0.0020,6712
+Depression,Stock participation,OLS,-0.0451,0.0024,-0.0499,-0.0403,0.0000,12090
+Depression,Stock participation,IV,-0.1624,0.0292,-0.2197,-0.1051,0.0000,12090
+Depression,IRA participation,OLS,-0.0691,0.0028,-0.0746,-0.0636,0.0000,12090
+Depression,IRA participation,IV,-0.1496,0.0303,-0.2090,-0.0903,0.0000,12090
