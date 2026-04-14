@@ -115,7 +115,7 @@ def figure1_depression_mr(sensitivity_df: pd.DataFrame) -> None:
         ax.set_yticklabels(method_labels)
         ax.axvline(0, color="grey", linewidth=0.5, linestyle="--")
         ax.set_xlabel(ylabel)
-        panel_label = chr(ord("a") + i)
+        panel_label = chr(ord("A") + i)
         ax.set_title(f"{panel_label}", fontweight="bold", loc="left")
 
     fig.suptitle("Depression and financial outcomes", fontsize=11, y=1.02)
@@ -135,8 +135,8 @@ def figure2_claiming_vs_retirement(
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8, 3.5), sharey=True)
 
     panels = [
-        (ax1, table3, "SS claiming age (years per SD)", "a"),
-        (ax2, ed_table2, "Retirement age (years per SD)", "b"),
+        (ax1, table3, "SS claiming age (years per SD)", "A"),
+        (ax2, ed_table2, "Retirement age (years per SD)", "B"),
     ]
 
     for ax, data, xlabel, panel_label in panels:
